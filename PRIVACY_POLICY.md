@@ -14,7 +14,7 @@
 
 **المطور**: صالح باقمري (Saleh Bagomri)
 **الموقع الإلكتروني**: www.bagomri.com
-**البريد الإلكتروني**: contact@bagomri.com
+**البريد الإلكتروني**: s.bagomri@gmail.com
 
 ### 2. البيانات التي نجمعها
 
@@ -130,9 +130,9 @@
 إذا كان لديك أي أسئلة حول سياسة الخصوصية:
 
 - **المطور**: صالح باقمري
-- **البريد الإلكتروني**: contact@bagomri.com
+- **البريد الإلكتروني**: s.bagomri@gmail.com
 - **الموقع**: www.bagomri.com
-- **العنوان**: عدن، اليمن
+- **العنوان**: حضرموت، اليمن
 
 ---
 
@@ -144,7 +144,7 @@ Welcome to Mahrah Blood Bank App. We are committed to protecting your privacy an
 
 **Developer**: Saleh Bagomri
 **Website**: www.bagomri.com
-**Email**: contact@bagomri.com
+**Email**: s.bagomri@gmail.com
 
 ### 2. Data We Collect
 
@@ -260,9 +260,9 @@ The app requests the following permissions:
 If you have any questions about the privacy policy:
 
 - **Developer**: Saleh Bagomri
-- **Email**: contact@bagomri.com
+- **Email**: s.bagomri@gmail.com
 - **Website**: www.bagomri.com
-- **Address**: Aden, Yemen
+- **Address**: Hadhramout, Yemen
 
 ---
 
