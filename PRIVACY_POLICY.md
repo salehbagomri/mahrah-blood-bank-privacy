@@ -102,7 +102,7 @@
 - **الانسحاب**: إيقاف تلقي الإشعارات
 - **التصدير**: الحصول على نسخة من بياناتك
 
-**لممارسة هذه الحقوق**: اتصل بنا عبر contact@bagomri.com
+**لممارسة هذه الحقوق**: اتصل بنا عبر s.bagomri@gmail.com
 
 ### 8. الأذونات المطلوبة
 
@@ -232,7 +232,7 @@ You have the right to:
 - **Opt-out**: Stop receiving notifications
 - **Export**: Get a copy of your data
 
-**To exercise these rights**: Contact us at contact@bagomri.com
+**To exercise these rights**: Contact us at s.bagomri@gmail.com
 
 ### 8. Required Permissions
 
