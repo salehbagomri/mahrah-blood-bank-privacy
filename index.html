@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="سياسة الخصوصية لتطبيق بنك دم المهرة - Privacy Policy for Mahrah Blood Bank App">
     <meta name="keywords" content="سياسة الخصوصية, بنك دم المهرة, Privacy Policy, Mahrah Blood Bank">
-    <meta name="author" content="Saleh Bagomri">
+    <meta name="author" content="صالح باقمري">
     <title>سياسة الخصوصية - بنك دم المهرة | Privacy Policy - Mahrah Blood Bank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -14,96 +17,151 @@
             box-sizing: border-box;
         }
 
+        :root {
+            --primary: #C62828;
+            --primary-dark: #8E0000;
+            --primary-light: #FF5F52;
+            --bg-gradient-1: #C62828;
+            --bg-gradient-2: #8E0000;
+            --accent: #E53935;
+            --text-primary: #1a1a2e;
+            --text-secondary: #6c757d;
+            --bg-light: #FFF5F5;
+            --success: #2E7D32;
+            --warning: #F57F17;
+            --white: #ffffff;
+        }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif;
             line-height: 1.8;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--text-primary);
+            background: linear-gradient(135deg, var(--bg-gradient-1) 0%, var(--bg-gradient-2) 100%);
             padding: 20px;
             direction: rtl;
+            min-height: 100vh;
         }
 
         .container {
             max-width: 900px;
             margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            background: var(--white);
+            border-radius: 24px;
+            box-shadow: 0 25px 80px rgba(0,0,0,0.35);
             overflow: hidden;
         }
 
+        /* ─── Header ──────────────────────────────────── */
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 30px;
+            background: linear-gradient(135deg, var(--bg-gradient-1) 0%, var(--bg-gradient-2) 100%);
+            color: var(--white);
+            padding: 48px 30px 36px;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .header-logo {
+            font-size: 3.2em;
+            margin-bottom: 6px;
         }
 
         .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            font-size: 2.4em;
+            margin-bottom: 6px;
+            font-weight: 800;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
 
-        .header p {
-            font-size: 1.2em;
-            opacity: 0.95;
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.92;
+            font-weight: 600;
         }
 
+        .header .date-badge {
+            display: inline-block;
+            margin-top: 14px;
+            padding: 6px 20px;
+            background: rgba(255,255,255,0.18);
+            border-radius: 20px;
+            font-size: 0.88em;
+            backdrop-filter: blur(4px);
+        }
+
+        /* ─── Language Toggle ─────────────────────────── */
         .language-toggle {
-            margin: 20px 0;
+            margin: 20px 0 4px;
             text-align: center;
         }
 
         .language-toggle button {
-            background: white;
-            color: #667eea;
-            border: none;
+            background: rgba(255,255,255,0.18);
+            color: var(--white);
+            border: 2px solid rgba(255,255,255,0.35);
             padding: 10px 30px;
-            margin: 0 10px;
+            margin: 0 6px;
             border-radius: 25px;
             cursor: pointer;
-            font-size: 1em;
-            font-weight: bold;
-            transition: all 0.3s;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            font-size: 0.95em;
+            font-weight: 700;
+            font-family: 'Cairo', sans-serif;
+            transition: all 0.3s ease;
         }
 
         .language-toggle button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+            background: rgba(255,255,255,0.32);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
         }
 
         .language-toggle button.active {
-            background: #667eea;
-            color: white;
+            background: var(--white);
+            color: var(--primary);
+            border-color: var(--white);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
         }
 
+        /* ─── Content ─────────────────────────────────── */
         .content {
-            padding: 40px 30px;
+            padding: 40px 32px;
         }
 
         .section {
-            margin-bottom: 40px;
+            margin-bottom: 36px;
         }
 
         .section h2 {
-            color: #667eea;
-            font-size: 1.8em;
-            margin-bottom: 15px;
+            color: var(--primary);
+            font-size: 1.65em;
+            margin-bottom: 14px;
             padding-bottom: 10px;
-            border-bottom: 3px solid #667eea;
+            border-bottom: 3px solid var(--primary);
+            font-weight: 800;
         }
 
         .section h3 {
-            color: #764ba2;
-            font-size: 1.4em;
-            margin: 20px 0 10px;
+            color: var(--primary-dark);
+            font-size: 1.25em;
+            margin: 18px 0 10px;
+            font-weight: 700;
         }
 
         .section p {
-            margin-bottom: 15px;
+            margin-bottom: 14px;
             text-align: justify;
+            color: #444;
         }
 
         .section ul {
@@ -113,73 +171,126 @@
 
         .section ul li {
             margin-bottom: 10px;
-            padding-right: 25px;
+            padding-right: 28px;
             position: relative;
+            color: #444;
         }
 
         .section ul li:before {
             content: "✓";
             position: absolute;
             right: 0;
-            color: #667eea;
+            color: var(--primary);
             font-weight: bold;
-            font-size: 1.2em;
+            font-size: 1.15em;
         }
 
+        /* ─── Boxes ───────────────────────────────────── */
         .highlight-box {
-            background: #f8f9ff;
-            border-left: 4px solid #667eea;
+            background: var(--bg-light);
+            border-right: 4px solid var(--primary);
             padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
+            margin: 18px 0;
+            border-radius: 10px;
         }
 
         .warning-box {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
+            background: #FFF8E1;
+            border-right: 4px solid var(--warning);
             padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
+            margin: 18px 0;
+            border-radius: 10px;
         }
 
         .success-box {
-            background: #d4edda;
-            border-left: 4px solid #28a745;
+            background: #E8F5E9;
+            border-right: 4px solid var(--success);
             padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-        }
-
-        .footer {
-            background: #f8f9fa;
-            padding: 30px;
-            text-align: center;
-            border-top: 1px solid #dee2e6;
-        }
-
-        .footer p {
-            margin: 10px 0;
-            color: #6c757d;
-        }
-
-        .contact-info {
-            background: #667eea;
-            color: white;
-            padding: 20px;
+            margin: 18px 0;
             border-radius: 10px;
-            margin: 20px 0;
+        }
+
+        .disclaimer-box {
+            background: #FFF3E0;
+            border-right: 4px solid #E65100;
+            padding: 20px;
+            margin: 18px 0;
+            border-radius: 10px;
+        }
+
+        /* ─── Contact Info ────────────────────────────── */
+        .contact-info {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 22px 24px;
+            border-radius: 14px;
+            margin: 18px 0;
+        }
+
+        .contact-info p {
+            color: var(--white);
+            margin-bottom: 8px;
         }
 
         .contact-info a {
-            color: white;
-            text-decoration: underline;
+            color: var(--white);
+            text-decoration: none;
+            border-bottom: 1px dashed rgba(255,255,255,0.5);
+            transition: border-color 0.2s;
+        }
+
+        .contact-info a:hover {
+            border-bottom-color: var(--white);
+        }
+
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #25D366;
+            color: var(--white) !important;
+            padding: 8px 20px;
+            border-radius: 25px;
+            text-decoration: none !important;
+            border: none !important;
+            font-weight: 700;
+            font-size: 0.95em;
+            margin-top: 6px;
+            transition: all 0.3s ease;
+            direction: ltr;
+        }
+
+        .whatsapp-btn:hover {
+            background: #1DA851;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(37,211,102,0.4);
         }
 
         .emoji {
-            font-size: 1.2em;
+            font-size: 1.15em;
         }
 
-        /* English version styling */
+        /* ─── Footer ──────────────────────────────────── */
+        .footer {
+            background: linear-gradient(180deg, #f9fafb 0%, #f1f3f4 100%);
+            padding: 32px;
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer p {
+            margin: 8px 0;
+            color: var(--text-secondary);
+            font-size: 0.92em;
+        }
+
+        .footer .copyright {
+            margin-top: 16px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        /* ─── English Version ────────────────────────── */
         .en {
             direction: ltr;
             text-align: left;
@@ -192,7 +303,7 @@
         }
 
         .en .section ul li {
-            padding-left: 25px;
+            padding-left: 28px;
             padding-right: 0;
         }
 
@@ -203,40 +314,35 @@
 
         .en .highlight-box,
         .en .warning-box,
-        .en .success-box {
-            border-left: none;
-            border-right: 4px solid #667eea;
+        .en .success-box,
+        .en .disclaimer-box {
+            border-right: none;
+            border-left: 4px solid var(--primary);
         }
 
-        .en .warning-box {
-            border-right-color: #ffc107;
-        }
+        .en .warning-box { border-left-color: var(--warning); }
+        .en .success-box { border-left-color: var(--success); }
+        .en .disclaimer-box { border-left-color: #E65100; }
 
-        .en .success-box {
-            border-right-color: #28a745;
-        }
-
+        /* ─── Responsive ─────────────────────────────── */
         @media (max-width: 768px) {
-            .header h1 {
-                font-size: 1.8em;
-            }
-
-            .content {
-                padding: 20px 15px;
-            }
-
-            .section h2 {
-                font-size: 1.5em;
-            }
+            body { padding: 10px; }
+            .header { padding: 32px 18px 28px; }
+            .header h1 { font-size: 1.7em; }
+            .header-logo { font-size: 2.4em; }
+            .content { padding: 24px 16px; }
+            .section h2 { font-size: 1.35em; }
+            .language-toggle button { padding: 8px 20px; font-size: 0.85em; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🩸 بنك دم المهرة</h1>
-            <p>سياسة الخصوصية - Privacy Policy</p>
-            <p style="font-size: 0.9em; margin-top: 10px;">آخر تحديث: 5 ديسمبر 2025</p>
+            <div class="header-logo">🩸</div>
+            <h1>بنك دم المهرة</h1>
+            <p class="subtitle">سياسة الخصوصية - Privacy Policy</p>
+            <span class="date-badge">آخر تحديث: 6 مارس 2025</span>
 
             <div class="language-toggle">
                 <button id="btnArabic" class="active" onclick="showArabic()">🇾🇪 العربية</button>
@@ -244,16 +350,21 @@
             </div>
         </div>
 
-        <!-- Arabic Version -->
+        <!-- ═══════ Arabic Version ═══════ -->
         <div class="content ar" id="arabicContent">
             <div class="section">
                 <h2>📋 المقدمة</h2>
                 <p>مرحباً بك في تطبيق بنك دم المهرة. نحن ملتزمون بحماية خصوصيتك وبياناتك الشخصية. توضح هذه السياسة كيفية جمع واستخدام وحماية معلوماتك عند استخدام التطبيق.</p>
 
                 <div class="contact-info">
-                    <p><strong>المطور:</strong> صالح باقمري (Saleh Bagomri)</p>
+                    <p><strong>تطوير وتصميم:</strong> صالح باقمري</p>
                     <p><strong>الموقع:</strong> <a href="https://www.bagomri.com">www.bagomri.com</a></p>
                     <p><strong>البريد الإلكتروني:</strong> <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
+                    <p>
+                        <a href="https://wa.me/967770727055" class="whatsapp-btn" target="_blank" rel="noopener">
+                            💬 تواصل عبر واتساب: +967 770 727 055
+                        </a>
+                    </p>
                 </div>
             </div>
 
@@ -273,7 +384,7 @@
                     <li><strong>ملاحظات (اختياري):</strong> أي معلومات إضافية</li>
                 </ul>
 
-                <p style="margin-top: 15px; padding: 10px; background: #e8f4fd; border-radius: 8px;"><strong>ملاحظة مهمة:</strong> المستخدم العادي لا يحتاج إلى إنشاء حساب أو كلمة مرور لاستخدام التطبيق. الحسابات مخصصة فقط للمستشفيات والمسؤولين.</p>
+                <p style="margin-top: 15px; padding: 12px 16px; background: #FFF5F5; border-radius: 10px; border: 1px solid rgba(198,40,40,0.15);"><strong>ملاحظة مهمة:</strong> المستخدم العادي لا يحتاج إلى إنشاء حساب أو كلمة مرور لاستخدام التطبيق. الحسابات مخصصة فقط للمستشفيات والمسؤولين.</p>
             </div>
 
             <div class="section">
@@ -313,6 +424,13 @@
                         <li>لا يتم جمع معلومات شخصية</li>
                         <li>البيانات المرسلة: نوع الجهاز، إصدار النظام، تقارير الأخطاء فقط</li>
                     </ul>
+
+                    <h3>التخزين المحلي (وضع بدون إنترنت)</h3>
+                    <ul>
+                        <li>يحتفظ التطبيق بنسخة محلية مشفرة من البيانات على جهازك</li>
+                        <li>تُستخدم فقط لتمكين البحث عن متبرعين بدون اتصال بالإنترنت</li>
+                        <li>تُحدّث تلقائياً عند توفر الاتصال</li>
+                    </ul>
                 </div>
             </div>
 
@@ -331,7 +449,7 @@
 
                 <div class="success-box">
                     <h3>✅ المشاركة المحدودة</h3>
-                    <p><strong>مع المحتاجين للدم:</strong> يمكن للباحثين عن متبرعين رؤية اسمك، رقم هاتفك، فصيلة دمك، ومديريتك</p>
+                    <p><strong>مع المحتاجين للدم:</strong> يمكن للباحثين عن متبرعين رؤية اسمك، رقم هاتفك، فصيلة دمك، ومديريتك (يُعرض المتبرعون المتاحون فقط)</p>
                     <p><strong>مع المستشفيات والمسؤولين (Admins):</strong> للإشراف على النظام وإدارة البلاغات</p>
                 </div>
             </div>
@@ -357,7 +475,8 @@
                 </ul>
 
                 <div class="contact-info">
-                    <p><strong>لممارسة هذه الحقوق:</strong> اتصل بنا عبر <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
+                    <p><strong>لممارسة هذه الحقوق:</strong> تواصل معنا عبر <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a> أو عبر واتساب</p>
+                    <p><a href="https://wa.me/967770727055" class="whatsapp-btn" target="_blank" rel="noopener">💬 واتساب: +967 770 727 055</a></p>
                 </div>
             </div>
 
@@ -381,6 +500,13 @@
             </div>
 
             <div class="section">
+                <h2>⚠️ إخلاء المسؤولية</h2>
+                <div class="disclaimer-box">
+                    <p>هذا التطبيق أداة مساعدة لتسهيل التواصل بين المتبرعين والمحتاجين، ولا يُغني عن الاستشارة الطبية المتخصصة. يجب التأكد من الأهلية الطبية للتبرع من خلال الجهات الصحية المختصة.</p>
+                </div>
+            </div>
+
+            <div class="section">
                 <h2>🔄 التحديثات</h2>
                 <ul>
                     <li>قد نقوم بتحديث هذه السياسة من وقت لآخر</li>
@@ -390,12 +516,17 @@
             </div>
 
             <div class="section">
-                <h2>📞 الاتصال بنا</h2>
+                <h2>📞 التطوير والدعم الفني</h2>
                 <div class="contact-info">
-                    <p><strong>المطور:</strong> صالح باقمري</p>
+                    <p><strong>تطوير وتصميم:</strong> صالح باقمري</p>
                     <p><strong>البريد الإلكتروني:</strong> <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
                     <p><strong>الموقع:</strong> <a href="https://www.bagomri.com">www.bagomri.com</a></p>
                     <p><strong>العنوان:</strong> حضرموت، اليمن</p>
+                    <p>
+                        <a href="https://wa.me/967770727055" class="whatsapp-btn" target="_blank" rel="noopener">
+                            💬 تواصل عبر واتساب: +967 770 727 055
+                        </a>
+                    </p>
                 </div>
             </div>
 
@@ -414,7 +545,7 @@
             </div>
         </div>
 
-        <!-- English Version -->
+        <!-- ═══════ English Version ═══════ -->
         <div class="content en" id="englishContent">
             <div class="section">
                 <h2>📋 Introduction</h2>
@@ -424,6 +555,11 @@
                     <p><strong>Developer:</strong> Saleh Bagomri</p>
                     <p><strong>Website:</strong> <a href="https://www.bagomri.com">www.bagomri.com</a></p>
                     <p><strong>Email:</strong> <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
+                    <p>
+                        <a href="https://wa.me/967770727055" class="whatsapp-btn" target="_blank" rel="noopener">
+                            💬 WhatsApp: +967 770 727 055
+                        </a>
+                    </p>
                 </div>
             </div>
 
@@ -443,7 +579,7 @@
                     <li><strong>Notes (Optional):</strong> Any additional information</li>
                 </ul>
 
-                <p style="margin-top: 15px; padding: 10px; background: #e8f4fd; border-radius: 8px;"><strong>Important Note:</strong> Regular users do not need to create an account or password to use the app. Accounts are only for hospitals and administrators.</p>
+                <p style="margin-top: 15px; padding: 12px 16px; background: #FFF5F5; border-radius: 10px; border: 1px solid rgba(198,40,40,0.15);"><strong>Important Note:</strong> Regular users do not need to create an account or password to use the app. Accounts are only for hospitals and administrators.</p>
             </div>
 
             <div class="section">
@@ -483,6 +619,13 @@
                         <li>No personal information collected</li>
                         <li>Data sent: device type, OS version, error reports only</li>
                     </ul>
+
+                    <h3>Local Storage (Offline Mode)</h3>
+                    <ul>
+                        <li>The app keeps an encrypted local copy of data on your device</li>
+                        <li>Used only to enable donor search without internet connection</li>
+                        <li>Automatically updated when connection is available</li>
+                    </ul>
                 </div>
             </div>
 
@@ -501,7 +644,7 @@
 
                 <div class="success-box">
                     <h3>✅ Limited Sharing</h3>
-                    <p><strong>With blood recipients:</strong> Those searching for donors can see your name, phone number, blood type, and district</p>
+                    <p><strong>With blood recipients:</strong> Those searching for donors can see your name, phone number, blood type, and district (only available donors are shown)</p>
                     <p><strong>With Hospitals and Admins:</strong> For system supervision and report management</p>
                 </div>
             </div>
@@ -527,7 +670,8 @@
                 </ul>
 
                 <div class="contact-info">
-                    <p><strong>To exercise these rights:</strong> Contact us at <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
+                    <p><strong>To exercise these rights:</strong> Contact us at <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a> or via WhatsApp</p>
+                    <p><a href="https://wa.me/967770727055" class="whatsapp-btn" target="_blank" rel="noopener">💬 WhatsApp: +967 770 727 055</a></p>
                 </div>
             </div>
 
@@ -551,6 +695,13 @@
             </div>
 
             <div class="section">
+                <h2>⚠️ Disclaimer</h2>
+                <div class="disclaimer-box">
+                    <p>This app is a support tool to facilitate communication between donors and recipients. It does not replace professional medical advice. Donation eligibility must be confirmed through qualified health authorities.</p>
+                </div>
+            </div>
+
+            <div class="section">
                 <h2>🔄 Updates</h2>
                 <ul>
                     <li>We may update this policy from time to time</li>
@@ -560,12 +711,17 @@
             </div>
 
             <div class="section">
-                <h2>📞 Contact Us</h2>
+                <h2>📞 Development & Technical Support</h2>
                 <div class="contact-info">
                     <p><strong>Developer:</strong> Saleh Bagomri</p>
                     <p><strong>Email:</strong> <a href="mailto:s.bagomri@gmail.com">s.bagomri@gmail.com</a></p>
                     <p><strong>Website:</strong> <a href="https://www.bagomri.com">www.bagomri.com</a></p>
                     <p><strong>Address:</strong> Hadhramout, Yemen</p>
+                    <p>
+                        <a href="https://wa.me/967770727055" class="whatsapp-btn" target="_blank" rel="noopener">
+                            💬 WhatsApp: +967 770 727 055
+                        </a>
+                    </p>
                 </div>
             </div>
 
@@ -585,10 +741,10 @@
         </div>
 
         <div class="footer">
-            <p><strong>📱 إصدار التطبيق - App Version: 2.0.0</strong></p>
-            <p>آخر تحديث - Last Updated: 5 ديسمبر 2025 - December 5, 2025</p>
+            <p><strong>📱 إصدار التطبيق - App Version: 1.0.1</strong></p>
+            <p>آخر تحديث - Last Updated: 6 مارس 2025 - March 6, 2025</p>
             <p>💙 صُنع بحب لأهالي المهرة - Made with love for the people of Mahrah</p>
-            <p style="margin-top: 20px;">© 2025 Saleh Bagomri - جميع الحقوق محفوظة - All Rights Reserved</p>
+            <p class="copyright">بنك دم المهرة 2025 © - جميع الحقوق محفوظة - All Rights Reserved</p>
         </div>
     </div>
 

@@ -2,7 +2,7 @@
 
 **تطبيق بنك دم المهرة - Mahrah Blood Bank App**
 
-**آخر تحديث: 5 ديسمبر 2025 - Last Updated: December 5, 2025**
+**آخر تحديث: 6 مارس 2025 - Last Updated: March 6, 2025**
 
 **🔗 رابط السياسة: https://salehbagomri.github.io/mahrah-blood-bank-privacy/**
 
@@ -14,9 +14,10 @@
 
 مرحباً بك في تطبيق بنك دم المهرة. نحن ملتزمون بحماية خصوصيتك وبياناتك الشخصية. توضح هذه السياسة كيفية جمع واستخدام وحماية معلوماتك عند استخدام التطبيق.
 
-**المطور**: صالح باقمري (Saleh Bagomri)
+**تطوير وتصميم**: صالح باقمري
 **الموقع الإلكتروني**: www.bagomri.com
 **البريد الإلكتروني**: s.bagomri@gmail.com
+**واتساب**: [+967 770 727 055](https://wa.me/967770727055)
 
 ### 2. البيانات التي نجمعها
 
@@ -43,7 +44,7 @@
 
 #### 3.1 الغرض الأساسي
 - **ربط المتبرعين بالمحتاجين**: مطابقة فصائل الدم والموقع الجغرافي
-- **البحث عن متبرعين**: تمكين المستشفيات والمحتاجين من إيجاد متبرعين مناسبين
+- **البحث عن متبرعين**: تمكين المستشفيات والمحتاجين من إيجاد متبرعين مناسبين (يُعرض المتبرعون المتاحون فقط)
 - **إدارة سجل التبرعات**: تتبع تواريخ التبرع السابقة
 
 #### 3.2 أغراض ثانوية
@@ -62,6 +63,11 @@
 - نستخدم **Firebase Crashlytics** لرصد الأخطاء التقنية
 - لا يتم جمع معلومات شخصية من خلال Crashlytics
 - البيانات المرسلة: نوع الجهاز، إصدار النظام، تقارير الأخطاء فقط
+
+#### 4.3 التخزين المحلي (وضع بدون إنترنت)
+- يحتفظ التطبيق بنسخة محلية مشفرة من البيانات على جهازك
+- تُستخدم فقط لتمكين البحث عن متبرعين بدون اتصال بالإنترنت
+- تُحدّث تلقائياً عند توفر الاتصال
 
 ### 5. مشاركة البيانات
 
@@ -97,7 +103,7 @@
 - **التعديل**: طلب تحديث معلوماتك (عبر المستشفى أو المسؤول)
 - **الحذف**: طلب حذف بياناتك نهائياً
 
-**لممارسة هذه الحقوق**: اتصل بنا عبر s.bagomri@gmail.com
+**لممارسة هذه الحقوق**: اتصل بنا عبر s.bagomri@gmail.com أو عبر واتساب [+967 770 727 055](https://wa.me/967770727055)
 
 ### 8. الأذونات المطلوبة
 
@@ -111,18 +117,23 @@
 - لا نجمع عمداً معلومات من الأطفال دون 18 سنة
 - إذا اكتشفنا تسجيل قاصر، سنحذف البيانات فوراً
 
-### 10. التحديثات
+### 10. إخلاء المسؤولية
+
+هذا التطبيق أداة مساعدة لتسهيل التواصل بين المتبرعين والمحتاجين، ولا يُغني عن الاستشارة الطبية المتخصصة. يجب التأكد من الأهلية الطبية للتبرع من خلال الجهات الصحية المختصة.
+
+### 11. التحديثات
 
 - قد نقوم بتحديث هذه السياسة من وقت لآخر
 - سيتم إعلامك بأي تغييرات جوهرية عبر التطبيق
 - تاريخ آخر تحديث موضح في أعلى هذه الصفحة
 
-### 11. الاتصال بنا
+### 12. التطوير والدعم الفني
 
 إذا كان لديك أي أسئلة حول سياسة الخصوصية:
 
-- **المطور**: صالح باقمري
+- **تطوير وتصميم**: صالح باقمري
 - **البريد الإلكتروني**: s.bagomri@gmail.com
+- **واتساب**: [+967 770 727 055](https://wa.me/967770727055)
 - **الموقع**: www.bagomri.com
 - **العنوان**: حضرموت، اليمن
 
@@ -137,6 +148,7 @@ Welcome to Mahrah Blood Bank App. We are committed to protecting your privacy an
 **Developer**: Saleh Bagomri
 **Website**: www.bagomri.com
 **Email**: s.bagomri@gmail.com
+**WhatsApp**: [+967 770 727 055](https://wa.me/967770727055)
 
 ### 2. Data We Collect
 
@@ -163,7 +175,7 @@ We use the collected information for:
 
 #### 3.1 Primary Purpose
 - **Connect Donors with Recipients**: Match blood types and geographic location
-- **Search for Donors**: Enable hospitals and people in need to find suitable donors
+- **Search for Donors**: Enable hospitals and people in need to find suitable donors (only available donors are shown)
 - **Manage Donation Records**: Track previous donation dates
 
 #### 3.2 Secondary Purposes
@@ -182,6 +194,11 @@ We use the collected information for:
 - We use **Firebase Crashlytics** to monitor technical errors
 - No personal information is collected through Crashlytics
 - Data sent: device type, OS version, error reports only
+
+#### 4.3 Local Storage (Offline Mode)
+- The app keeps an encrypted local copy of data on your device
+- Used only to enable donor search without internet connection
+- Automatically updated when connection is available
 
 ### 5. Data Sharing
 
@@ -217,7 +234,7 @@ You have the right to:
 - **Modify**: Request update of your information (through hospital or admin)
 - **Delete**: Request permanent deletion of your data
 
-**To exercise these rights**: Contact us at s.bagomri@gmail.com
+**To exercise these rights**: Contact us at s.bagomri@gmail.com or via WhatsApp [+967 770 727 055](https://wa.me/967770727055)
 
 ### 8. Required Permissions
 
@@ -231,18 +248,23 @@ The app requests only one permission:
 - We do not knowingly collect information from children under 18
 - If we discover a minor's registration, we will delete the data immediately
 
-### 10. Updates
+### 10. Disclaimer
+
+This app is a support tool to facilitate communication between donors and recipients. It does not replace professional medical advice. Donation eligibility must be confirmed through qualified health authorities.
+
+### 11. Updates
 
 - We may update this policy from time to time
 - You will be notified of any material changes through the app
 - Last update date is shown at the top of this page
 
-### 11. Contact Us
+### 12. Development & Technical Support
 
 If you have any questions about the privacy policy:
 
 - **Developer**: Saleh Bagomri
 - **Email**: s.bagomri@gmail.com
+- **WhatsApp**: [+967 770 727 055](https://wa.me/967770727055)
 - **Website**: www.bagomri.com
 - **Address**: Hadhramout, Yemen
 
@@ -263,6 +285,11 @@ If you have any questions about the privacy policy:
    - Data collected: Device info, OS version, crash logs
    - No personal information collected
    - Website: https://firebase.google.com
+
+3. **Hive** (Local Encrypted Storage)
+   - Purpose: Cache donor data locally for offline access
+   - Data location: On the user's device only
+   - Security: Encrypted local storage
 
 ### Data Retention
 
@@ -292,10 +319,12 @@ You can withdraw consent at any time by requesting data deletion.
 
 ---
 
-**Version**: 1.1
-**Effective Date**: December 5, 2025
-**App Version**: 2.0.0
+**Version**: 1.2
+**Effective Date**: March 6, 2025
+**App Version**: 1.0.1
 
 ---
+
+بنك دم المهرة 2025 © - جميع الحقوق محفوظة
 
 💙 **صُنع بحب لأهالي المهرة - Made with love for the people of Mahrah**

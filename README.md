@@ -10,6 +10,8 @@
 
 👉 [اضغط هنا لقراءة سياسة الخصوصية كاملة - Click here to read the full privacy policy](PRIVACY_POLICY.md)
 
+🌐 [عرض السياسة على الويب - View on Web](https://salehbagomri.github.io/mahrah-blood-bank-privacy/)
+
 ---
 
 ### 📱 عن التطبيق - About the App
@@ -30,6 +32,7 @@ We are committed to protecting your privacy and personal data:
 - ✅ **لا بيع للبيانات** - No Data Selling
 - ✅ **تشفير كامل** - Full Encryption
 - ✅ **شفافية تامة** - Complete Transparency
+- ✅ **يعمل بدون إنترنت** - Works Offline
 
 ---
 
@@ -37,36 +40,39 @@ We are committed to protecting your privacy and personal data:
 
 #### البيانات المجمعة - Data Collected:
 - الاسم ورقم الهاتف - Name and phone number
-- فصيلة الدم والموقع - Blood type and location
+- فصيلة الدم والمديرية - Blood type and district
 - معلومات صحية أساسية - Basic health information
 
 #### استخدام البيانات - Data Usage:
 - ربط المتبرعين بالمحتاجين - Connect donors with recipients
-- إرسال إشعارات الطوارئ - Send emergency notifications
+- البحث عن متبرعين متاحين - Search for available donors
 - تحسين الخدمة - Improve service
 
 #### الحماية - Protection:
 - تخزين آمن على Supabase - Secure storage on Supabase
 - تشفير SSL/TLS - SSL/TLS encryption
+- تخزين محلي مشفر (وضع بدون إنترنت) - Encrypted local storage (offline mode)
 - عدم مشاركة مع أطراف ثالثة - No third-party sharing
 
 ---
 
-### 📞 التواصل - Contact
+### 📞 التطوير والدعم الفني - Development & Support
 
-**المطور - Developer**: صالح باقمري - Saleh Bagomri
+**تطوير وتصميم**: صالح باقمري
 
 **البريد الإلكتروني - Email**: s.bagomri@gmail.com
 
-**الموقع - Website**: www.bagomri.com
+**واتساب - WhatsApp**: [+967 770 727 055](https://wa.me/967770727055)
+
+**الموقع - Website**: [www.bagomri.com](https://www.bagomri.com)
 
 ---
 
 ### 📅 آخر تحديث - Last Updated
 
-**3 ديسمبر 2025 - December 3, 2025**
+**6 مارس 2025 - March 6, 2025**
 
-**إصدار التطبيق - App Version**: 2.0.0
+**إصدار التطبيق - App Version**: 1.0.1
 
 ---
 
@@ -111,4 +117,4 @@ This repository is dedicated solely to hosting the privacy policy for Mahrah Blo
 
 ---
 
-**© 2025 Saleh Bagomri - جميع الحقوق محفوظة - All Rights Reserved**
+**بنك دم المهرة 2025 © - جميع الحقوق محفوظة - All Rights Reserved**
